@@ -38,6 +38,7 @@ theme = dark:Gruvbox Material Dark,light:Gruvbox Material Dark
 # Other
 copy-on-select = clipboard
 shell-integration-features = no-cursor,sudo,no-title
+command = /usr/bin/nu
 
 # keybindings
 keybind = clear
@@ -52,5 +53,15 @@ keybind = ctrl+shift+t=new_tab
 keybind = ctrl+shift+w=close_tab
 keybind = ctrl+tab=next_tab
 keybind = ctrl+shift+tab=previous_tab
+
+keybind = ctrl+shift+h=new_split:left
+keybind = ctrl+shift+j=new_split:down
+keybind = ctrl+shift+k=new_split:up
+keybind = ctrl+shift+l=new_split:right
+
+keybind = alt+shift+h=goto_split:left
+keybind = alt+shift+j=goto_split:down
+keybind = alt+shift+k=goto_split:up
+keybind = alt+shift+l=goto_split:right
 
 # custom-shader = ./glitch.glsl
