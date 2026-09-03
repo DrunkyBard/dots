@@ -48,6 +48,7 @@ keybind = ctrl+shift+comma=reload_config
 keybind = ctrl+shift+a=select_all
 keybind = ctrl+equal=increase_font_size:1
 keybind = ctrl+minus=decrease_font_size:1
+keybind = ctrl+0=reset_font_size
 
 keybind = ctrl+shift+t=new_tab
 keybind = ctrl+shift+w=close_tab
